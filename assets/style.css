@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+    color: blueviolet;
+}
+
+article {
+    display:flex;
+    flex-wrap:wrap;
+}
+
+section{
+    border:5px solid grey;
+    width: 25%;
+    margin:40px;
+    word-wrap: break-word;
+}
+
+h2{
+    border:10px solid white;
+}
+
+pre{
+    background-color: yellow;
+    border-radius: 20px;
+}
+
+header{
+    text-align: center;
+}
+
+pre{
+    -webkit-user-select: all;
+    -ms-user-select: all;
+    user-select: all;
+}
+
+footer{
+    text-align: center;
+}
+
