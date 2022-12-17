@@ -48,6 +48,8 @@ h2{
 pre{
     background: linear-gradient( #ecf891, #fcd30b);
     border-radius: 10px;
+    border: 5px solid red;
+    white-space: pre-wrap;
     -webkit-user-select: all;
     -ms-user-select: all;
     user-select: all;
@@ -68,9 +70,7 @@ h2:hover  {
 @media screen and (max-width:768px) {
     main section { 
       
-       align-items: center;
-       justify-content: column;
-       flex: 0, 1, 50%;
+       
     }
 } 
 
