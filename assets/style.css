@@ -69,6 +69,7 @@ h2:hover  {
     main section { 
       
        align-items: center;
+       justify-content: column;
        flex: 0, 1, 50%;
     }
 } 
