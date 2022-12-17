@@ -9,8 +9,7 @@
 
 body {
     background: linear-gradient( #131f23, #000000);
-    color: blueviolet;
-    
+    color: blueviolet; 
 }
 
 main {
@@ -40,7 +39,6 @@ section{
     
 }
 
-
 h2{
     border:5px solid white;
     border-radius: 10px;  
@@ -50,21 +48,23 @@ h2{
 pre{
     background: linear-gradient( #ecf891, #fcd30b);
     border-radius: 10px;
-}
-
-pre{
     -webkit-user-select: all;
     -ms-user-select: all;
     user-select: all;
 }
+section:hover {
+    box-shadow: -22px -22px 10px 10px rgba(0, 0, 255, .2);
+}
 
-/* @media screen and (max-width:768px) {
-    main article { 
+h2:hover  {
+    transition: 1s ease-in;
+    background: linear-gradient( #ecf891, #fcd30b);
+}  
+@media screen and (max-width:992px) {
+    main section { 
        justify-content: column; 
     }
-} */
-
-
+}
 @media screen and (max-width:768px) {
     main section { 
       
@@ -73,12 +73,4 @@ pre{
     }
 } 
 
-    
-
-@media screen and (max-width:480px) {
-    main section { 
-       justify-content: column;
-       align-items:center; 
-       flex: 0, 1, 100%;
-    }
-}
+  
