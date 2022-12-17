@@ -13,8 +13,8 @@ body {
 }
 
 main {
-    display:flex;
-    flex-wrap:wrap;
+    display: flex;
+    flex-wrap: wrap;
     justify-content: center;
 }
 
@@ -30,7 +30,6 @@ header, footer {
 
 section{
     display:flex;
-    flex: 0, 1, 33%;
     justify-content: column;
     flex-direction: column;
     border:5px solid grey;
@@ -48,7 +47,6 @@ h2{
 pre{
     background: linear-gradient( #ecf891, #fcd30b);
     border-radius: 10px;
-    border: 5px solid red;
     white-space: pre-wrap;
     -webkit-user-select: all;
     -ms-user-select: all;
@@ -64,14 +62,24 @@ h2:hover  {
 }  
 @media screen and (max-width:992px) {
     main section { 
-       justify-content: column; 
+       width: 30%;
+       margin: 20px; 
+    }
+
+    header {
+        margin-bottom: 10px;
     }
 }
 @media screen and (max-width:768px) {
-    main section { 
-      
-       
+    main  { 
+       justify-content: row;     
+    }
+
+    main section {
+        width: 50%;
     }
 } 
+
+
 
   
